@@ -5,6 +5,12 @@ span tree, instead of the deeply nested `resourceSpans → scopeSpans →
 spans` JSON you get from a collector's file exporter, a captured
 `curl -d @trace.json` payload, or a debug dump.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
